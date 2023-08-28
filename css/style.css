@@ -1,0 +1,778 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: absolute;
+  top: 20px;
+}
+.nav ul {
+  list-style-type: none;
+}
+.nav ul li {
+  float: left;
+  padding: 20px;
+  position: relative;
+  top: -10px;
+  left: -180px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.nav ul li .home {
+  color: #7f97ff;
+}
+.nav ul li a:hover {
+  color: #7f97ff;
+}
+header .nav #check {
+  display: none;
+  font-size: 25px;
+}
+header .nav .checkbtn i {
+  display: none;
+  position: absolute;
+  top: 18px;
+  left: 90%;
+  font-size: 25px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9ff;
+}
+.section1 .head {
+  width: 400px;
+}
+.section1 .head h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.section1 .head h1 {
+  font-size: 40px;
+}
+.section1 .head p {
+  color: rgba(49, 47, 47, 0.8);
+  line-height: 25px;
+}
+.section1 .head input {
+  padding: 12px 40px;
+  background-color: #7f97ff;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.section1 .head input:hover {
+  box-shadow: 2px 5px 30px rgba(121, 143, 245, 0.5);
+}
+.section1 .header {
+  width: 436px;
+  height: 600px;
+}
+.section1 .header img {
+  width: 436px;
+  height: 540px;
+  position: relative;
+  top: 30px;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .img2 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  top: 20px;
+  left: -100px;
+}
+.section2 .img2 img {
+  width: 420px;
+  height: 320px;
+  position: relative;
+  top: 100px;
+}
+.section2 .text {
+  width: 420px;
+  position: relative;
+  top: 130px;
+  left: 60px;
+}
+.section2 .text h3 {
+  color: rgb(28, 27, 27);
+  font-weight: normal;
+  font-size: 14px;
+}
+.section2 .text h1 {
+  font-size: 40px;
+}
+.section2 .text p {
+  color: rgba(46, 45, 45, 0.8);
+  line-height: 20px;
+}
+.section2 .text input {
+  padding: 12px 20px;
+  background-color: #7f97ff;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.section2 .text input:hover {
+  box-shadow: 2px 5px 30px rgba(121, 143, 245, 0.5);
+}
+
+.cameraarea .iconarea {
+  width: 650px;
+  position: relative;
+  top: 200px;
+  left: 28%;
+  text-align: center;
+}
+.cameraarea .iconarea h1 {
+  font-size: 30px;
+}
+.cameraarea .iconarea p {
+  color: rgba(39, 37, 37, 0.8);
+}
+.cameraarea .camera {
+  position: relative;
+  top: 300px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.cameraarea .camera i {
+  font-size: 50px;
+  color: rgba(29, 27, 27, 0.8);
+  background-color: transparent;
+}
+.cameraarea .camera h2 {
+  font-size: 30px;
+}
+
+.cameraarea .camera p {
+  color: rgba(29, 27, 27, 0.8);
+}
+
+.cameraarea .camerasec {
+  width: 85%;
+  height: auto;
+  position: relative;
+  left: 8%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cameraarea .camerasec .camera {
+  padding: 10px;
+}
+.cameraarea .camerasec .camera:hover {
+  background-color: #7f97ff;
+  color: white;
+}
+.cameraarea .camerasec .camera:hover i {
+  background-color: #7f97ff;
+  color: white;
+}
+.cameraarea .camerasec .camera:hover p {
+  background-color: #7f97ff;
+  color: white;
+}
+.project {
+  position: relative;
+  top: 400px;
+  width: 100%;
+  height: 280px;
+  background-color: #8293ff;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.project .num {
+  padding-left: 80px;
+}
+.project .num h2 {
+  font-size: 40px;
+}
+.project .num p {
+  position: relative;
+  top: -25px;
+  left: -10px;
+  margin-top: 20px;
+}
+.our {
+  position: relative;
+  top: 480px;
+  text-align: center;
+}
+.our .fitured {
+  margin-bottom: 100px;
+}
+.our .fitured h1 {
+  font-size: 40px;
+  margin: 20px;
+}
+.our .fitured p {
+  color: rgba(31, 30, 30, 0.9);
+  transform: translate(0, -10px);
+}
+.our .all {
+  width: 85%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 80px;
+}
+.our .all .latest {
+  padding: 30px;
+  margin: 0px;
+  width: 419.5px;
+  height: 397px;
+}
+.our .all .latest img {
+  width: 340px;
+  height: 350px;
+}
+.our .all .latest figure {
+  background: linear-gradient(40deg, #8490ff 100%, #62bdfc 100%);
+  width: 340px;
+  height: 339px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3%;
+}
+.our .all .latest figure:hover img {
+  opacity: 0.3;
+  transition: all ease-in 0.3s;
+}
+.our .all .latest h2 {
+  position: relative;
+  left: -40px;
+  margin: 10px;
+}
+.our .all .latest p {
+  position: relative;
+  left: -40px;
+  top: -10px;
+}
+.plan {
+  position: relative;
+  top: 550px;
+  text-align: center;
+}
+.plan .planing h2 {
+  font-size: 40px;
+}
+.plan .dot {
+  position: relative;
+  top: 100px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.plan .dot .dot1 {
+  width: 280px;
+  border: solid 1px rgb(10, 9, 9);
+  margin-left: 20px;
+  background-color: #f9f9ff;
+  height: 50vh;
+  padding: 10px;
+}
+.plan .dot .dot1 h2 {
+  font-size: 40px;
+}
+.plan .dot .dot1 h4 {
+  font-size: 25px;
+  margin: 10px;
+}
+.plan .dot .dot1 p {
+  margin: 20px;
+}
+.plan .dot .dot1 h1 {
+  font-size: 50px;
+}
+.plan .dot .dot1 input {
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: -18px;
+  background-color: #8490ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.plan .dot .dot1:hover {
+  background-color: #8293ff;
+  color: white;
+  transition: all ease-in 0.3s 0.1s;
+  box-shadow: 2px 5px 30px rgba(130, 147, 255, 0.5);
+  border: solid 1px rgba(130, 147, 255, 0.5);
+  transform: scale(1.05);
+}
+.plan .dot .dot1:hover input {
+  background-color: white;
+  color: black;
+}
+footer {
+  position: relative;
+  top: 800px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 9, 30);
+  color: white;
+  width: 100%;
+  height: 400px;
+}
+footer .foot {
+  width: 400px;
+  height: auto;
+  position: relative;
+  left: -100px;
+  padding: 10px;
+}
+footer .foot p {
+  line-height: 25px;
+}
+.foot2 p {
+  margin: 10px;
+}
+footer .foot2 {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+}
+footer .foot2 .in {
+  background-color: white;
+  width: fit-content;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foot2 .in input {
+  height: 20px;
+  width: 240px;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+footer .foot2 .in button {
+  font-size: 18px;
+  background-color: #7f97ff;
+  color: white;
+  border: none;
+  outline: none;
+  height: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+footer .foot3 {
+  width: 120px;
+}
+.foot3 p {
+  margin: 10px;
+}
+footer .foot3 .ic a {
+  color: white;
+  padding: 5px;
+}
+footer .foot3 .ic a #fa:hover {
+  color: rgb(29, 29, 215);
+  transition: all ease-in 0.1s 0.1s;
+}
+footer .foot3 .ic a #tw:hover {
+  color: #62bdfc;
+  transition: all ease-in 0.3s 0.2s;
+}
+footer .foot3 .ic a #in:hover {
+  color: rgb(239, 91, 91);
+  transition: all ease-in 0.3s 0.2s;
+}
+footer .foot3 .ic a #yu:hover {
+  color: red;
+  transition: all ease-in 0.1s 0.1s;
+}
+/*Responsive for small devaice navbar start*/
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+
+  header .logo {
+    position: absolute;
+    top: -1%;
+    left: -5px;
+    padding: 20px;
+  }
+  header .nav .checkbtn i {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    background-color: #f9f9ff;
+  }
+
+  header .nav ul {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 40px;
+    left: -800px;
+    background-color: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  header .nav ul li {
+    line-height: 20px;
+    clear: both;
+    position: relative;
+    top: -10px;
+    left: -20px;
+  }
+  #check:checked ~ ul {
+    left: 0px;
+  }
+  header .nav ul li a {
+    font-size: 25px;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    position: relative;
+    top: 50px;
+  }
+  .section1 .head {
+    position: relative;
+    top: 20px;
+    left: -12px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .section1 .head h3 {
+    font-size: 12px;
+  }
+  .section1 .head h1 {
+    font-size: 20px;
+  }
+  .section1 .head p {
+    font-size: 15px;
+  }
+  .section1 .head input {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .section1 .header {
+    width: 85%;
+    height: auto;
+    position: relative;
+    top: -40px;
+    left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .header img {
+    width: 90%;
+    height: auto;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section2 .img2 {
+    width: 85%;
+    height: auto;
+    position: relative;
+    left: -13px;
+  }
+  .section2 .img2 img {
+    width: 100%;
+    height: auto;
+  }
+  .section2 .text {
+    width: 85%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: -10px;
+  }
+  .section2 .text h3 {
+    font-size: 14px;
+  }
+  .section2 .text h1 {
+    font-size: 20px;
+  }
+  .section2 .text p {
+    font-size: 14px;
+  }
+  .section2 .text input {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  /*section2 end*/
+  .cameraarea {
+    width: 95%;
+    height: auto;
+  }
+  .cameraarea .iconarea {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 250px;
+    left: 40px;
+  }
+  .cameraarea .iconarea h1 {
+    font-size: 20px;
+  }
+  .cameraarea .iconarea p {
+    font-size: 14px;
+  }
+  .cameraarea .camerasec {
+    position: relative;
+    top: 50px;
+    left: -8px;
+  }
+  .cameraarea .camerasec .camera {
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: 50px;
+  }
+  .cameraarea .camerasec .camera i {
+    font-size: 25px;
+  }
+  .cameraarea .camerasec .camera h2 {
+    font-size: 18px;
+    transform: translate(0, -8px);
+    margin: 10px 0px;
+  }
+  .cameraarea .camerasec .camera p {
+    font-size: 12px;
+    transform: translate(0, -20px);
+  }
+  .project {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .project .num {
+    text-align: center;
+    width: 25%;
+    padding: 2px;
+  }
+  .project .num h2 {
+    font-size: 25px;
+    transform: translate(-5px, 0);
+    margin: 25px 0px;
+  }
+  .project .num p {
+    font-size: 14px;
+    transform: translate(5px, 0);
+  }
+  .our {
+    width: 90%;
+    height: auto;
+  }
+  .our .fitured {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 30px;
+  }
+  .our .fitured h1 {
+    font-size: 25px;
+  }
+  .our .fitured p {
+    font-size: 14px;
+  }
+  .our .all {
+    width: 90%;
+    height: auto;
+    display: flex;
+  }
+  .our .all .latest {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 50px;
+    left: -40px;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  }
+  .our .all .latest figure {
+    width: 140px;
+    height: 140px;
+  }
+  .our .all .latest figure img {
+    width: 140px;
+    height: 140px;
+  }
+  .our .all .latest h2 {
+    font-size: 12px;
+    transform: translate(40px, 0);
+  }
+  .our .all .latest p {
+    font-size: 12px;
+    transform: translate(40px, 0);
+  }
+
+  .plan {
+    width: 100%;
+    height: auto;
+  }
+  .plan .planing {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 80px;
+    left: 40px;
+  }
+  .plan .planing h2 {
+    font-size: 25px;
+  }
+  .plan .planing p {
+    font-size: 14px;
+  }
+  .plan .dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: -12px;
+  }
+  .plan .dot .dot1 {
+    width: 130px;
+    height: 50vh;
+
+    margin-bottom: 20px;
+  }
+  .plan .dot .dot1 h2 {
+    font-size: 18px;
+  }
+  .plan .dot .dot1 h4 {
+    font-size: 14px;
+  }
+  .plan .dot .dot1 p {
+    font-size: 12px;
+    margin: 11px;
+  }
+  .plan .dot .dot1 h1 {
+    font-size: 18px;
+  }
+  .plan .dot .dot1 input {
+    font-size: 12px;
+    padding: 5px 8px;
+    transform: translate(5px, 0);
+    margin-top: 25px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .foot {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  footer .foot h3 {
+    font-size: 16px;
+  }
+  footer .foot p {
+    font-size: 12px;
+  }
+  footer .foot2 {
+    width: 200px;
+    height: auto;
+  }
+  footer .foot2 h3 {
+    font-size: 16px;
+  }
+  footer .foot2 p {
+    font-size: 12px;
+    transform: translate(0, -10px);
+  }
+  footer .foot2 .in {
+    width: 200px;
+    height: auto;
+    transform: translate(0, -10px);
+  }
+  footer .foot2 .in input {
+    width: 80%;
+  }
+  footer .foot2 .in button {
+    font-size: 12px;
+  }
+  footer .foot3 {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  footer .foot3 h3 {
+    font-size: 16px;
+  }
+  footer .foot3 p {
+    font-size: 12px;
+    transform: translate(0, -10px);
+  }
+  footer .foot3 .ic {
+    transform: translate(0, -10px);
+  }
+}
